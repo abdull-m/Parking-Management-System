@@ -1,0 +1,34 @@
+<project>
+    ...
+    <dependencies>
+        ...
+        <dependency>
+            <groupId>org.evosuite</groupId>
+            <artifactId>evosuite</artifactId>
+            <version>1.1.0</version>
+            <scope>test</scope>
+        </dependency>
+        ...
+    </dependencies>
+    ...
+    <build>
+        <plugins>
+            ...
+            <plugin>
+                <groupId>org.evosuite</groupId>
+                <artifactId>evosuite-maven-plugin</artifactId>
+                <version>1.1.0</version>
+                <executions>
+                    <execution>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            ...
+        </plugins>
+    </build>
+    ...
+</project>
