@@ -9,8 +9,7 @@ The **YorkU Parking Booking System** is a Java-based GUI project designed to mee
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Diagrams](#project-diagrams)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Project Description
 
