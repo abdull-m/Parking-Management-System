@@ -17,6 +17,7 @@ The **YorkU Parking Booking System** is a Java-based GUI project designed to mee
 The **YorkU Parking Booking System** aims to provide better online booking services to clients, including students, faculty members, non-faculty staff, and visitors. It fulfills the following [requirements](#requirements):
 
 ### Requirements
+
 1. **Client Registration**
    - Any client can register with a unique/valid email and a strong password.
    - The system supports four client types and allows for future additions.
@@ -60,57 +61,25 @@ Before using the YorkU Parking Booking System, ensure that you have the followin
 - A compatible IDE (e.g., [IntelliJ IDEA](#system-requirements), [Eclipse](#system-requirements))
 - [MySQL](#system-requirements) or another relational database management system
 
-## Installation
+## Installation 
+1. Clone the repository to your local machine: ```shell git clone https://github.com/yourusername/YorkU-Parking-System.git 
+2.	Open the project in your chosen IDE.
+3.	Configure the database connection in the project settings.
+4.	Build and run the project.
 
-1. Clone the repository to your local machine:
+## Usage
+•	Register as a client with a unique email and strong password.
+•	Log in to your account.
+•	Browse available parking spaces and select one.
+•	Provide a valid license plate number.
+•	Make a deposit payment.
+•	Manage your bookings, extend parking time, or make payments using available options.
 
-   ```shell
-   git clone https://github.com/yourusername/YorkU-Parking-System.git
-Open the project in your chosen IDE.
-
-Configure the database connection in the project settings.
-
-Build and run the project.
-
-Usage
-Register as a client with a unique email and strong password.
-
-Log in to your account.
-
-Browse available parking spaces and select one.
-
-Provide a valid license plate number.
-
-Make a deposit payment.
-
-Manage your bookings, extend parking time, or make payments using available options.
-
-Project Diagrams
+## Project Diagrams
 The project includes various diagrams to aid in understanding the system's structure and functionality. You can find these diagrams in the "diagrams" folder within the project repository:
+•	Use Case Diagram
+•	Class Diagram
+•	Sequence Diagram
 
-Use Case Diagram
-Class Diagram
-Sequence Diagram
-Contributing
-Contributions to the project are welcome. If you'd like to contribute, please follow these steps:
-
-Fork the repository.
-
-Create a new branch for your feature or fix.
-
-Make your changes.
-
-Test your changes thoroughly.
-
-Submit a pull request.
-
-License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it according to the terms of the license.
-
-Thank you for using the YorkU Parking Booking System! If you have any questions or encounter issues, please don't hesitate to reach out to the project maintainers.
-
+Thank you for using the YorkU Parking Booking System! If you have any questions or encounter issues, please don't hesitate to reach out to me.
 Happy parking! 🚗🅿️
-
-
-
-
